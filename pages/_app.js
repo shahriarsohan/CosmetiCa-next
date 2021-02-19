@@ -1,10 +1,20 @@
+import { useEffect } from "react";
 import Head from "next/head";
+import { hotjar } from "react-hotjar";
+
+import TawkTo from "../components/Tawk";
 import "../components/Home/Home.css";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <link
+          rel="stylesheet"
+          href="https://s.pageclip.co/v1/pageclip.css"
+          media="screen"
+        />
+
         <link
           rel="shortcut icon"
           href="assets/images/favicon.png"
@@ -52,8 +62,13 @@ function MyApp({ Component, pageProps }) {
           integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
           crossorigin="anonymous"
         ></script>
+        <script src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/hotjar.js"></script>
+        <script
+          src="https://s.pageclip.co/v1/pageclip.js"
+          charset="utf-8"
+        ></script>
       </Head>
-
+      <TawkTo />
       <Component {...pageProps} />
     </>
   );

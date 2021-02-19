@@ -136,7 +136,12 @@ export default class Contact extends Component {
                       </p>
                     </div>
                     <div className="contact_form">
-                      <form id="contact-form" action="assets/contact.php">
+                      <form
+                        // id="contact-form"
+                        action="https://send.pageclip.co/oBBrvrJGB7owUoXlswXXinMaLELBPuq4"
+                        className="pageclip-form"
+                        method="post"
+                      >
                         <div className="row">
                           <div className="col-md-6">
                             <div className="single_form">
