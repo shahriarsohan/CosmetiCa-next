@@ -1,0 +1,305 @@
+/* home gallery section */
+
+.slideshow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  padding: 2em;
+  background-color: #ffffff;
+  margin: 2em auto;
+  border-radius: 10px;
+}
+
+.arrow-left {
+  align-self: center;
+  height: 0;
+  width: 2em;
+  padding: 0;
+  margin: 0.5em;
+  border-top: 3em solid transparent;
+  border-right: 3em solid #3a003a;
+  border-bottom: 3em solid transparent;
+  cursor: pointer;
+}
+
+.arrow-right {
+  align-self: center;
+  height: 0;
+  width: 2em;
+  padding: 0;
+  margin: 0.5em;
+  border-top: 3em solid transparent;
+  border-left: 3em solid #3a003a;
+  border-bottom: 3em solid transparent;
+  cursor: pointer;
+}
+
+.faded-left {
+  border-right: 3em solid #ffcfff;
+}
+
+.faded-right {
+  border-left: 3em solid #ffcfff;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0.01;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.gallery-image {
+  width: 190px;
+  height: 130px;
+  object-fit: cover;
+  margin: auto 0.1em;
+  border-radius: 5px;
+  animation: appear 1.5s ease-in;
+}
+
+@media screen and (max-width: 1200px) {
+  .slideshow {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .arrow-left {
+    border-top: 1.5em solid transparent;
+    border-right: 1.5em solid #3a003a;
+    border-bottom: 1.5em solid transparent;
+  }
+  .arrow-right {
+    border-top: 1.5em solid transparent;
+    border-left: 1.5em solid #3a003a;
+    border-bottom: 1.5em solid transparent;
+  }
+  .gallery-image {
+    width: 100px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .gallery-image {
+    width: 60px;
+    height: 50px;
+  }
+}
+
+/* x home gallery section */
+
+/* video player */
+.video-player {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+/*x video player */
+
+/* larger gallery */
+
+.reviewcard {
+  box-shadow: 0px 20px 60px -20px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  padding: 30px 50px;
+  font-family: sans-serif;
+  /* color: ; */
+  font-weight: 400;
+  border-radius: 15px;
+  background: #fff;
+  width: 100%;
+  max-width: 600px;
+}
+
+.propicbox {
+  float: left;
+}
+
+.propic {
+  width: 50px;
+  border-radius: 50px;
+}
+
+.reviewerbox {
+  margin: -7px 0 0 60px;
+}
+
+.title-h1 {
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: 400;
+  color: #636972;
+}
+
+.reviewername {
+  color: #39599a;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+a-tag,
+a-tag:visited,
+a-tag:hover {
+  color: #39599a;
+  text-decoration: none;
+}
+
+.reviewdate {
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 400;
+  color: #636972;
+  margin: -10px 0 0 0;
+}
+
+.review {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.bottomText {
+  margin: 15px 0 15px;
+  font-size: 14px;
+  color: #636972;
+}
+
+/* BOTTOM BAR */
+.copyrightsleft {
+  position: fixed;
+  left: 40px;
+  bottom: 40px;
+  text-align: left;
+  font-size: 12px;
+  color: #636972;
+  font-family: sans-serif;
+}
+
+.copyrightsleft {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}
+
+.copyrightsright {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}
+
+/* x larger gallery */
+
+/* review section */
+/* .review-area-right {
+  float: right;
+} */
+/* x review section */
+
+/* video section */
+.video-player {
+  padding: 20px;
+}
+/* x video section */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
+
+.panel-1 {
+  background-image: url("https://cosmetica.com.bd/wp-content/uploads/2017/03/hair-style-gallery-02.jpg");
+}
+
+.panel-2 {
+  background-image: url("https://cosmetica.com.bd/wp-content/uploads/2017/03/hair-style-gallery-08.jpg");
+}
+
+.panel-3 {
+  background-image: url("https://cosmetica.com.bd/wp-content/uploads/2017/03/hair-style-gallery-04.jpg");
+}
+
+.panel-4 {
+  background-image: url("https://cosmetica.com.bd/wp-content/uploads/2017/03/hair-style-gallery-05.jpg");
+}
+
+/* .container {
+  display: flex;
+  width: 90%;
+} */
+
+/* .view-boston {
+  width: 80%;
+  height: 90%;
+} */
+
+.LargeGallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 30px;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 5px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+}
+
+.panel h3 {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  color: rgb(247, 251, 255);
+  font-size: 30px;
+  margin: 0;
+  opacity: 0;
+}
+
+.panel.active {
+  flex: 5;
+}
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+}
+
+.about-text {
+}
+
+h1.redesSociais {
+  display: none;
+}
+
+ul.redesSociais {
+  padding-left: 0;
+  /* width: 620px;
+  height: 100px; */
+  position: relative;
+  /* left: 50%; */
+  transform: scale(0.5);
+  margin-right: -10px;
+  z-index: 0;
+  cursor: pointer;
+}
