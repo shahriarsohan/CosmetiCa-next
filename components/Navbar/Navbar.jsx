@@ -58,9 +58,9 @@ export default class Navbarr extends Component {
                     </li>
 
                     <li className="nav-item">
-                      <a className="page-scroll" href="#contact">
+                      <Link className="page-scroll" href="/contact">
                         Contact
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>{" "}
