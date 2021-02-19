@@ -137,46 +137,20 @@ export default class Contact extends Component {
                     </div>
                     <div className="contact_form">
                       <form
-                        // id="contact-form"
-                        action="https://send.pageclip.co/oBBrvrJGB7owUoXlswXXinMaLELBPuq4"
-                        className="pageclip-form"
+                        action="https://send.pageclip.co/aDpE9nOPK9KbhjmOOqrQiwob8O4xIS0x"
+                        class="pageclip-form"
                         method="post"
                       >
-                        <div className="row">
-                          <div className="col-md-6">
-                            <div className="single_form">
-                              <input
-                                name="name"
-                                type="text"
-                                placeholder="Name"
-                              />
-                            </div>
-                          </div>
-                          <div className="col-md-6">
-                            <div className="single_form">
-                              <input
-                                name="email"
-                                type="email"
-                                placeholder="Email"
-                              />
-                            </div>
-                          </div>
-                          <div className="col-md-12">
-                            <div className="single_form">
-                              <textarea
-                                name="message"
-                                placeholder="Message"
-                                defaultValue={""}
-                              />
-                            </div>
-                          </div>
-                          <p className="form-message" />
-                          <div className="col-md-12">
-                            <div className="single_form">
-                              <button className="main-btn">Submit</button>
-                            </div>
-                          </div>
-                        </div>
+                        <input type="text" name="name" value="Roscoe Jones" />
+                        <input
+                          type="email"
+                          name="email"
+                          value="roscoe@example.com"
+                        />
+
+                        <button type="submit" class="pageclip-form__submit">
+                          <span>Send</span>
+                        </button>
                       </form>
                     </div>
                   </div>

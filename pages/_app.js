@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Head from "next/head";
+
 import { hotjar } from "react-hotjar";
 
 import TawkTo from "../components/Tawk";
