@@ -41,16 +41,18 @@ export default class Service extends Component {
                   <Image
                     width="200"
                     height="200"
-                    src="https://cosmetica.com.bd/wp-content/uploads/2017/03/services-7.jpg"
+                    src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/cosmetica-assets/cosmetica-prp-therapy.jpg"
                   />
                 </div>
                 <div className="services_content">
                   <h3 className="services_title">
-                    <a href="#">Research</a>
+                    <a href="#">PRP</a>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat,
-                    sed diam voluptua. At vero eos accusam et justo duo dolores{" "}
+                    PRP therapy for hair loss is a treatment that involves
+                    withdrawing a patient’s own blood, processing it so that
+                    only the enriched cells (platelet-rich plasma) remain, and
+                    injecting it into the scalp.
                   </p>
                 </div>
               </div>{" "}
@@ -66,16 +68,18 @@ export default class Service extends Component {
                   <Image
                     width="200"
                     height="200"
-                    src="https://cosmetica.com.bd/wp-content/uploads/2017/03/services-04.jpg"
+                    src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/cosmetica-assets/cosmetica-hair-system.jpg"
                   />
                 </div>
                 <div className="services_content">
                   <h3 className="services_title">
-                    <a href="#">Prototype</a>
+                    <a href="#">Hair System</a>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat,
-                    sed diam voluptua. At vero eos accusam et justo duo dolores{" "}
+                    Restore your hair with a non-surgical solution that fits
+                    your lifestyle. Our exclusive non-surgical hair loss
+                    solutions enable you to enjoy natural looking results and
+                    keep your normal routine.
                   </p>
                 </div>
               </div>{" "}
@@ -91,16 +95,18 @@ export default class Service extends Component {
                   <Image
                     width="200"
                     height="200"
-                    src="https://cosmetica.com.bd/wp-content/uploads/2017/03/services-6.jpg"
+                    src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/cosmetica-assets/cosmetica-mesotherapy.jpg"
                   />
                 </div>
                 <div className="services_content">
                   <h3 className="services_title">
-                    <a href="#">Build</a>
+                    <a href="#">Mesotherapy</a>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat,
-                    sed diam voluptua. At vero eos accusam et justo duo dolores{" "}
+                    Mesotherapy is a non-invasive and non-surgical cosmetic hair
+                    restoration procedure for male & woman which has been
+                    steadily gaining in popularity. Woman which has been
+                    steadily gaining
                   </p>
                 </div>
               </div>{" "}

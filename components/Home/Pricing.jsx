@@ -8,7 +8,7 @@ export default class Pricing extends Component {
           <div className="row justify-content-center">
             <div className="col-lg-6">
               <div className="section_title text-center pb-25">
-                <h5 className="sub_title">Pricing Plans</h5>
+                <h5 className="sub_title">Products</h5>
                 <h4 className="main_title">Choose Your Plan</h4>
               </div>{" "}
               {/* section title */}
@@ -36,18 +36,6 @@ export default class Pricing extends Component {
                       Monthly
                     </a>
                   </li>
-                  <li className="nav-item">
-                    <a
-                      id="yearly-tab"
-                      data-toggle="tab"
-                      href="#yearly"
-                      role="tab"
-                      aria-controls="yearly"
-                      aria-selected="false"
-                    >
-                      Yearly
-                    </a>
-                  </li>
                 </ul>
               </div>{" "}
               {/* pricing menu */}
@@ -67,7 +55,7 @@ export default class Pricing extends Component {
                           data-wow-delay="0.5s"
                         >
                           <div className="pricing_title">
-                            <h4 className="title">Basic</h4>
+                            <h4 className="title">PRP</h4>
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={112}
@@ -84,14 +72,17 @@ export default class Pricing extends Component {
                             </svg>
                           </div>
                           <div className="pricing_content">
-                            <span className="pricing_price">$19.00</span>
-                            <p>
-                              Lorem ipsum dolor sit am consetetur sadi aliquyam
-                              erat sed diam voluptua vero eos accusam et justo
-                              duo dolores{" "}
+                            <p className="">
+                              <strong>৳3000/per serssion</strong>
                             </p>
-                            <a href className="main-btn">
-                              Choose Plan
+                            <p>
+                              With a thin needle, your own Platelet-Rich Plasma
+                              (PRP) is injected into the scalp. Then the growth
+                              factors in your blood cells do their job and hair
+                              growth is naturally stimulated.
+                            </p>
+                            <a href="tel:+8801786910645" className="main-btn">
+                              Contact Us
                             </a>
                           </div>
                         </div>{" "}
@@ -101,10 +92,10 @@ export default class Pricing extends Component {
                         <div
                           className="single_pricing text-center mt-30 active wow fadeInUp"
                           data-wow-duration="0.5s"
-                          data-wow-delay="1s"
+                          data-wow-delay="1.5s"
                         >
                           <div className="pricing_title">
-                            <h4 className="title">Standard</h4>
+                            <h4 className="title">Replacement</h4>
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={112}
@@ -121,14 +112,17 @@ export default class Pricing extends Component {
                             </svg>
                           </div>
                           <div className="pricing_content">
-                            <span className="pricing_price">$39.00</span>
-                            <p>
-                              Lorem ipsum dolor sit am consetetur sadi aliquyam
-                              erat sed diam voluptua vero eos accusam et justo
-                              duo dolores{" "}
+                            <p className="">
+                              <strong>Starts from 8000 BDT</strong>
                             </p>
-                            <a href className="main-btn">
-                              Choose Plan
+                            <p>
+                              COSMETICA is the leading providers of high quality
+                              hair systems within the hair replacement industry.
+                              We use the best quality hair and techniques along
+                              with advanced technology.
+                            </p>
+                            <a href="tel:+8801786910645" className="main-btn">
+                              Contact Us
                             </a>
                           </div>
                         </div>{" "}
@@ -136,12 +130,12 @@ export default class Pricing extends Component {
                       </div>
                       <div className="col-lg-4 col-md-7 col-sm-9">
                         <div
-                          className="single_pricing text-center mt-30 wow fadeInUp"
+                          className="single_pricing text-center mt-30  wow fadeInUp"
                           data-wow-duration="0.5s"
-                          data-wow-delay="1.5s"
+                          data-wow-delay="1s"
                         >
                           <div className="pricing_title">
-                            <h4 className="title">Premium</h4>
+                            <h6 className="title">Mesotherapy</h6>
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={112}
@@ -158,14 +152,18 @@ export default class Pricing extends Component {
                             </svg>
                           </div>
                           <div className="pricing_content">
-                            <span className="pricing_price">$99.00</span>
-                            <p>
-                              Lorem ipsum dolor sit am consetetur sadi aliquyam
-                              erat sed diam voluptua vero eos accusam et justo
-                              duo dolores{" "}
+                            <p className="">
+                              <strong>৳3000/per serssion</strong>
                             </p>
-                            <a href className="main-btn">
-                              Choose Plan
+                            <p>
+                              The treatment is carried out by injecting cocktail
+                              of various minerals, amino acids, enzymes,and
+                              vitamins that repair hair tissues and promote
+                              growth of new tissues.This nutrient rich liquid is
+                              injected.
+                            </p>
+                            <a href="tel:+8801786910645" className="main-btn">
+                              Contact Us
                             </a>
                           </div>
                         </div>{" "}

@@ -12,7 +12,7 @@ export default class Navbarr extends Component {
               <nav className="navbar navbar-expand-lg">
                 <a className="navbar-brand" href="index.html">
                   <img
-                    src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/images/logo.svg"
+                    src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/cosmetica-assets/cosmetica-logo.png"
                     alt="Logo"
                   />
                 </a>

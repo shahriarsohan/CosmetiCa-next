@@ -17,7 +17,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div className="container">
-        <div className="container about pt-115 pb-120">
+        <div className="about pt-115 pb-120">
           <div className="row justify-content-center">
             <div className="col-lg-6">
               <div className="section_title text-center pb-25">
@@ -118,7 +118,7 @@ export default class Contact extends Component {
             </div>
           </div>
           <section id="contact" className="contact_area pt-70 pb-120">
-            <div className="container">
+            <div>
               <div className="row justify-content-end">
                 <div className="col-lg-12">
                   <div

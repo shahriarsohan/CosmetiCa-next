@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Link from "next/link";
 
 export default class Footer extends Component {
   render() {
@@ -10,12 +11,12 @@ export default class Footer extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="footer_about mt-50">
                   <div className="footer_logo">
-                    <a href="#">
+                    <Link href="/">
                       <img
                         src="https://cosmetica.com.bd/wp-content/themes/cosmetica/assets/img/custom/footer-new-logo.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="footer_content">
                     <p>Lorem ipsum dolor sitco nsetetu nonumy eirmod tempor</p>
@@ -29,13 +30,13 @@ export default class Footer extends Component {
                     <h2 className="footer_title">Quick Links</h2>
                     <ul className="link">
                       <li>
-                        <a href="#">Company</a>
+                        <Link href="#">Company</Link>
                       </li>
                       <li>
-                        <a href="#">Privacy Policy</a>
+                        <a href="">Privacy Policy</a>
                       </li>
                       <li>
-                        <a href="#">About</a>
+                        <Link href="/about">About</Link>
                       </li>
                     </ul>
                   </div>{" "}
@@ -44,13 +45,10 @@ export default class Footer extends Component {
                     <h2 className="footer_title">Resources</h2>
                     <ul className="link">
                       <li>
-                        <a href="#">Support</a>
+                        <Link href="/contact">Support</Link>
                       </li>
                       <li>
-                        <a href="#">Contact</a>
-                      </li>
-                      <li>
-                        <a href="#">Terms</a>
+                        <Link href="/contact">Contact</Link>
                       </li>
                     </ul>
                   </div>{" "}

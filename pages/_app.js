@@ -1,9 +1,7 @@
-import { useEffect } from "react";
 import Head from "next/head";
 
-import { hotjar } from "react-hotjar";
-
 import TawkTo from "../components/Tawk";
+import SideIcon from "../components/SideBarMEdia";
 import "../components/Home/Home.css";
 
 function MyApp({ Component, pageProps }) {
@@ -15,6 +13,10 @@ function MyApp({ Component, pageProps }) {
           href="https://s.pageclip.co/v1/pageclip.css"
           media="screen"
         />
+        <link
+          rel="shortcut icon"
+          href="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/cosmetica-assets/favicon.png"
+        ></link>
 
         <link
           rel="shortcut icon"
@@ -69,7 +71,9 @@ function MyApp({ Component, pageProps }) {
           charset="utf-8"
         ></script>
       </Head>
+
       <TawkTo />
+      {/* <SideIcon /> */}
       <Component {...pageProps} />
     </>
   );

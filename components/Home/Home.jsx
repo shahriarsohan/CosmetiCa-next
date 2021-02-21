@@ -5,9 +5,9 @@ import Hero from "./Hero";
 import Service from "./Service";
 import WhySection from "./WhySection";
 import OurService from "./OurService";
-import OurWorks from "./OurWorks";
+// import OurWorks from "./OurWorks";
 import Pricing from "./Pricing";
-import Blog from "./Blog";
+// import Blog from "./Blog";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import ImageList from "./Gallery";
@@ -24,11 +24,11 @@ export default class Home extends Component {
         <Service />
         <WhySection />
         <OurService />
-        <OurWorks />
+        {/* <OurWorks /> */}
         <Pricing />
         <Review />
         <Video />
-        <Blog />
+        {/* <Blog /> */}
         <Contact />
         <Footer />
       </div>

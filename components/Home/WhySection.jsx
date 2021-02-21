@@ -30,10 +30,10 @@ export default class WhySection extends Component {
                 </div>{" "}
                 {/* section title */}
                 <p>
-                  Nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et rebum. Stet clita kasd gubergren, no sea
-                  takimata sanctus.{" "}
+                  Hair & Skin is most important part of the body & increase your
+                  beauty. so we should know how we taking care of our hair &
+                  skin. By COSMETCIA you can get some important solution &
+                  beauty tips of Hair & Skin.
                 </p>
                 <ul className="about_list">
                   <li className="d-flex">
@@ -41,10 +41,7 @@ export default class WhySection extends Component {
                       <i className="lni lni-checkmark-circle" />
                     </div>
                     <div className="about_list_content">
-                      <p>
-                        Vero eos et accusam et justo duo dolores et rebum. Stet
-                        clita kasd gubergrenv
-                      </p>
+                      <p>Trust</p>
                     </div>
                   </li>
                   <li className="d-flex">
@@ -52,10 +49,7 @@ export default class WhySection extends Component {
                       <i className="lni lni-checkmark-circle" />
                     </div>
                     <div className="about_list_content">
-                      <p>
-                        At vero eos et accusam et justo duo dolores et rebum.
-                        Stet clita kasd gubergrenv
-                      </p>
+                      <p>Time</p>
                     </div>
                   </li>
                   <li className="d-flex">
@@ -63,10 +57,7 @@ export default class WhySection extends Component {
                       <i className="lni lni-checkmark-circle" />
                     </div>
                     <div className="about_list_content">
-                      <p>
-                        Dvero eos et accusam et justo duo dolores et rebum. Stet
-                        clita kasd gubergrenv
-                      </p>
+                      <p>Quality</p>
                     </div>
                   </li>
                 </ul>
