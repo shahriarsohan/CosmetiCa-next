@@ -20,7 +20,7 @@ export default class Home extends Component {
       <div>
         <NavBar />
         <Hero />
-        {/* <ImageList />
+        <ImageList />
         <Service />
         <WhySection />
         {/* <OurService /> */}
@@ -30,7 +30,7 @@ export default class Home extends Component {
         <Video />
         {/* <Blog /> */}
         {/* <Contact /> */}
-        <Footer /> */}
+        <Footer />
       </div>
     );
   }
