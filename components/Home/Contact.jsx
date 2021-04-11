@@ -27,13 +27,18 @@ export default class Contact extends Component {
                   <h5 className="sub_title">Contact</h5>
                   <h4 className="main_title">Get In Touch</h4>
                   <p>
-                    Lorem ipsum dolor sitrg amet, consetetur sadipscing elitr
-                    sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                    magna.
+                    COSMETICA is a one stop Hair solution center. we provide
+                    Hair replacement, Hair Fall control therapy, PRP for hair
+                    growth .
                   </p>
                 </div>
                 <div className="contact_form">
-                  <form id="contact-form" action="assets/contact.php">
+                  <form
+                    // id="contact-form"
+                    action="https://send.pageclip.co/VuqhsFLA9r29bv10Esw1H6zUjI1DXhNn"
+                    className="pageclip-form"
+                    method="post"
+                  >
                     <div className="row">
                       <div className="col-md-6">
                         <div className="single_form">
@@ -61,7 +66,9 @@ export default class Contact extends Component {
                       <p className="form-message" />
                       <div className="col-md-12">
                         <div className="single_form">
-                          <button className="main-btn">Submit</button>
+                          <button className="main-btn pageclip-form__submit">
+                            Submit
+                          </button>
                         </div>
                       </div>
                     </div>

@@ -10,7 +10,7 @@ export default class Service extends Component {
             <div className="col-lg-6">
               <div className="section_title text-center pb-25">
                 <h5 className="sub_title">About</h5>
-                <h4 className="main_title">Work Process</h4>
+                <h4 className="main_title">Our Service</h4>
               </div>{" "}
               {/* section title */}
             </div>

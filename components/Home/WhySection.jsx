@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class WhySection extends Component {
   render() {
     return (
-      <section id="why" className="about_area pt-115 ">
+      <section id="why" className="about_area pt-115 text-center">
         <div className="about_image d-flex align-items-end justify-content-end">
           <div className="image">
             <img

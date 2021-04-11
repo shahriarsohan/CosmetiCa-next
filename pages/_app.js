@@ -1,8 +1,21 @@
 import Head from "next/head";
 
+import NProgress from "nprogress";
+import Router from "next/router";
+
 import TawkTo from "../components/Tawk";
 import SideIcon from "../components/SideBarMEdia";
 import "../components/Home/Home.css";
+
+import "semantic-ui-css/semantic.min.css";
+
+Router.onRouteChangeStart = (url) => {
+  NProgress.start();
+};
+
+Router.onRouteChangeComplete = () => NProgress.done();
+
+Router.onRouteChangeError = () => NProgress.done();
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -12,6 +25,10 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
           href="https://s.pageclip.co/v1/pageclip.css"
           media="screen"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"
         />
         <link
           rel="shortcut icon"

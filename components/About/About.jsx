@@ -87,11 +87,11 @@ const About = () => {
             </div>
           </div>
           <div className="col-xs-12 col-lg-5 col-md-5 col-sm-12">
-            <div className="about-image justify-content-center align-item-center">
+            <div className="about-image justify-content-center align-items-center">
               <Image
                 width="500"
                 height="500"
-                src="https://cosmetica.com.bd/wp-content/uploads/2017/03/vaia.jpg"
+                src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/vaia.jpg"
                 alt="cosmetia-consultant"
               />
             </div>

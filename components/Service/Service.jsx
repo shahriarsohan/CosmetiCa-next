@@ -339,7 +339,7 @@ const Service = () => {
             </div>
             <div className="col-lg-5 col-md-5 col-xs-12 col-sm-12">
               <Image
-                src="https://cosmetica.com.bd/wp-content/uploads/2017/03/before.jpg"
+                src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/before.jpg"
                 width="600"
                 height="500"
                 alt="hair-replacement-before"
@@ -349,7 +349,7 @@ const Service = () => {
           <div className="row">
             <div className="pt-25 col-lg-5 col-md-5 col-xs-12 col-sm-12">
               <Image
-                src="https://cosmetica.com.bd/wp-content/uploads/2017/03/after.jpg"
+                src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/after.jpg"
                 width="600"
                 height="500"
                 alt="hair-replacement-before"
