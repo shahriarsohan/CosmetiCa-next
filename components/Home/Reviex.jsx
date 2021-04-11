@@ -18,6 +18,7 @@ const Review = () => {
             <img
               src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/cosmetica-assets/review-one.jpg"
               className="propic"
+              alt="people-talked-about-cosmetica"
             />
           </div>
           <div className="reviewerbox">
@@ -28,6 +29,7 @@ const Review = () => {
               <img
                 src="https://preview.checchiadesign.com/code/reviewcard/img/review-icon.png"
                 width="20px"
+                alt="review-icon"
               />{" "}
               recommends{" "}
               <a
@@ -49,6 +51,7 @@ const Review = () => {
             <img
               src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/cosmetica-assets/review-one.jpg"
               className="propic"
+              alt="people-talked-about-cosmetica"
             />
           </div>
           <div className="reviewerbox">
@@ -59,6 +62,7 @@ const Review = () => {
               <img
                 src="https://preview.checchiadesign.com/code/reviewcard/img/review-icon.png"
                 width="20px"
+                alt="review-icon"
               />{" "}
               recommends{" "}
               <a
@@ -80,6 +84,7 @@ const Review = () => {
             <img
               src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/cosmetica-assets/review-one.jpg"
               className="propic"
+              alt="people-talked-about-cosmetica"
             />
           </div>
           <div className="reviewerbox">
@@ -90,6 +95,7 @@ const Review = () => {
               <img
                 src="https://preview.checchiadesign.com/code/reviewcard/img/review-icon.png"
                 width="20px"
+                alt="review-icon"
               />{" "}
               recommends{" "}
               <a
