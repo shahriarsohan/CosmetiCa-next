@@ -92,6 +92,14 @@ const Footer = () => {
                     placeholder="Enter email"
                   />
                   <button onClick={subscribe} className="main-btn">
+                    {state === "LOADING" ? (
+                      <div
+                        class="spinner-border text-success"
+                        role="status"
+                      ></div>
+                    ) : (
+                      ""
+                    )}{" "}
                     Subscribe
                   </button>
                   {/* </form> */}

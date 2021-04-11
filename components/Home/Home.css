@@ -378,3 +378,25 @@ ul.redesSociais {
   color: #fff;
   font-size: 25px;
 }
+
+.promotional-sec {
+  padding: 80px;
+}
+
+.desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prom-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .desc {
+    margin-bottom: 50px;
+  }
+}

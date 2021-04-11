@@ -13,6 +13,7 @@ import Footer from "./Footer";
 import ImageList from "./Gallery";
 import Video from "./Video";
 import Review from "./Reviex";
+import Promotional from "./Promotional";
 
 export default class Home extends Component {
   render() {
@@ -29,7 +30,8 @@ export default class Home extends Component {
         <Review />
         <Video />
         {/* <Blog /> */}
-        {/* <Contact /> */}
+        <Promotional />
+        <Contact />
         <Footer />
       </div>
     );

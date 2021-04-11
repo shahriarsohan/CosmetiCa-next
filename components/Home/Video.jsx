@@ -77,7 +77,7 @@ const Video = () => {
           ></div>
         </div>
       </div>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center pb-115">
         <Link href="/gallery">
           <Button
             color="red"

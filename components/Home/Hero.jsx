@@ -48,7 +48,8 @@ export default class Hero extends Component {
                     <a
                       className="main-btn"
                       rel="nofollow"
-                      href="https://rebrand.ly/plain-ud"
+                      href="https://www.facebook.com/cosmetica.dhaka/services/"
+                      target="_blank"
                     >
                       Book An Appointments
                     </a>
