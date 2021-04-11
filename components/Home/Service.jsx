@@ -41,6 +41,7 @@ export default class Service extends Component {
                   <Image
                     width="200"
                     height="200"
+                    alt="cosmetica-prp-therapy-for-hair-growth"
                     src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/cosmetica-assets/cosmetica-prp-therapy.jpg"
                   />
                 </div>
@@ -68,6 +69,7 @@ export default class Service extends Component {
                   <Image
                     width="200"
                     height="200"
+                    alt="cosmetica-advanced-hair-replacement"
                     src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/cosmetica-assets/cosmetica-hair-system.jpg"
                   />
                 </div>
@@ -95,6 +97,7 @@ export default class Service extends Component {
                   <Image
                     width="200"
                     height="200"
+                    alt="cosmetica-mesotherapy-for-hair-growth"
                     src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/cosmetica-assets/cosmetica-mesotherapy.jpg"
                   />
                 </div>

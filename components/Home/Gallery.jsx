@@ -78,7 +78,11 @@ class ImageList extends Component {
             .map((image, imageindex) => {
               return (
                 <div key={imageindex}>
-                  <img className="gallery-image" src={image} />
+                  <img
+                    className="gallery-image"
+                    src={image}
+                    alt="cosmetica-hair-replacement-gallery"
+                  />
                 </div>
               );
             })}
