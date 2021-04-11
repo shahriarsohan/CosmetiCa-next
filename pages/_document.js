@@ -22,7 +22,6 @@ export default class MyDocument extends Document {
           `,
             }}
           />
-          <title>COSMETICA - Best hair solution for men in bangladesh</title>
           <meta
             name="description"
             content="COSMETICA is a one stop Hair solution center. we provide Hair replacement, Hair Fall control therapy, PRP for hair growth"
@@ -36,10 +35,6 @@ export default class MyDocument extends Document {
             name="keywords"
             content="Hair Replacement, wig, hair extension , prp , mesotherapy,hair fall problem,baldness , cosmetica , hair fall solution,hair growth tips"
           ></meta>
-          <link rel="manifest" href="/manifest.json" />
-          <link rel="apple-touch-icon" href="/icon.png"></link>
-          <link rel="manifest" href="/manifest.json" />
-          <meta name="theme-color" content="#fff" />
         </Head>
         <body>
           <Main />

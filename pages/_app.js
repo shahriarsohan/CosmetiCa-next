@@ -40,6 +40,20 @@ function MyApp({ Component, pageProps }) {
           href="https://s.pageclip.co/v1/pageclip.css"
           media="screen"
         />
+        <title>COSMETICA - Best hair solution for men in bangladesh</title>
+        <meta
+          name="description"
+          content="COSMETICA is a one stop Hair solution center. we provide Hair replacement, Hair Fall control therapy, PRP for hair growth"
+        ></meta>
+        <meta name="robots" content="index , follow"></meta>
+        <meta
+          name="copyright"
+          content="Cosmetica is registered trademark of Cosmetica LTD."
+        ></meta>
+        <meta
+          name="keywords"
+          content="Hair Replacement, wig, hair extension , prp , mesotherapy,hair fall problem,baldness , cosmetica , hair fall solution,hair growth tips"
+        ></meta>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"

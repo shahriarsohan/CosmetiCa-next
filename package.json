@@ -12,6 +12,7 @@
     "bootstrap": "^4.6.0",
     "google-map-react": "^2.1.9",
     "next": "10.0.7",
+    "next-pwa": "^5.2.9",
     "nprogress": "^0.2.0",
     "react": "17.0.1",
     "react-awesome-slider": "^4.1.0",
