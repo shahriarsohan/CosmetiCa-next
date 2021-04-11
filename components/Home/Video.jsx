@@ -39,7 +39,7 @@ const Video = () => {
 
   return (
     <div className="container">
-      <div className="container pt-115">
+      <div className="pt-115">
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="section_title text-center pb-25">
