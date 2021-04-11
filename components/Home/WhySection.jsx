@@ -11,7 +11,7 @@ export default class WhySection extends Component {
               data-wow-duration="1s"
               data-wow-delay="0.5s"
               src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/hero-img-removebg-preview.png"
-              alt="about"
+              alt="our-service-picture"
             />
           </div>
         </div>{" "}
