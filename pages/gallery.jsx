@@ -10,7 +10,7 @@ const Gallery = () => {
     <>
       <Navbar />
       <div className="p-5">
-        <section className="gallery container" id="portafolio">
+        <section className="gallery" id="portafolio">
           <div className="contenedor">
             <h2 className="subtitulo">Galería</h2>
             <div className="contenedor-galeria">
