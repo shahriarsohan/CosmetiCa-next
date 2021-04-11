@@ -5,83 +5,8 @@ import { Carousel } from "react-responsive-carousel";
 export default class Hero extends Component {
   render() {
     return (
-      <div id="home" className="header_hero d-lg-flex align-items-center">
-        <div className="hero_shape shape_1">
-          <img
-            src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/images/shape/shape-1.svg"
-            alt="shape"
-          />
-        </div>
+      <div id="home" className="header_hero d-lg-flex  align-items-center">
         {/* hero shape */}
-        <div className="hero_shape shape_2">
-          <img
-            src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/images/shape/shape-2.svg"
-            alt="shape"
-          />
-        </div>
-        {/* hero shape */}
-        <div className="hero_shape shape_3">
-          <img
-            src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/images/shape/shape-3.svg"
-            alt="shape"
-          />
-        </div>
-        {/* hero shape */}
-        <div className="hero_shape shape_4">
-          <img
-            src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/images/shape/shape-4.svg"
-            alt="shape"
-          />
-        </div>
-        {/* hero shape */}
-        <div className="hero_shape shape_6">
-          <img
-            src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/images/shape/shape-1.svg"
-            alt="shape"
-          />
-        </div>
-        {/* hero shape */}
-        <div className="hero_shape shape_7">
-          <img
-            src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/images/shape/shape-4.svg"
-            alt="shape"
-          />
-        </div>
-        {/* hero shape */}
-        <div className="hero_shape shape_8">
-          <img
-            src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/images/shape/shape-3.svg"
-            alt="shape"
-          />
-        </div>
-        {/* hero shape */}
-        <div className="hero_shape shape_9">
-          <img
-            src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/images/shape/shape-2.svg"
-            alt="shape"
-          />
-        </div>
-        {/* hero shape */}
-        <div className="hero_shape shape_10">
-          <img
-            src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/images/shape/shape-4.svg"
-            alt="shape"
-          />
-        </div>
-        {/* hero shape */}
-        <div className="hero_shape shape_11">
-          <img
-            src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/images/shape/shape-1.svg"
-            alt="shape"
-          />
-        </div>
-        {/* hero shape */}
-        <div className="hero_shape shape_12">
-          <img
-            src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/images/shape/shape-2.svg"
-            alt="shape"
-          />
-        </div>
         {/* hero shape */}
         <div className="container">
           <div className="row">
@@ -98,7 +23,7 @@ export default class Hero extends Component {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="header_hero_content">
+              <div className="header_hero_content text-center">
                 <h2
                   className="hero_title wow fadeInUp"
                   data-wow-duration="2s"

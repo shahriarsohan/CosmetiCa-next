@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import GoogleMapReact from "google-map-react";
+
 import Image from "next/image";
+
+import Map from "../../components/map";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -29,19 +32,7 @@ export default class Contact extends Component {
           <div className="row">
             <div className="col-lg-6 col-md-12">
               <div style={{ height: "50vh", width: "100%" }}>
-                <GoogleMapReact
-                  bootstrapURLKeys={{
-                    key: "AIzaSyBiTBjVSWdPeVbOPBGn9pV3D-VGcvkYnDY",
-                  }}
-                  defaultCenter={this.props.center}
-                  defaultZoom={this.props.zoom}
-                >
-                  <AnyReactComponent
-                    lat={59.955413}
-                    lng={30.337844}
-                    text="My Marker"
-                  />
-                </GoogleMapReact>
+                <Map />
               </div>
             </div>
             <div className="col-lg-6 col-md-12 pt-10">
@@ -130,15 +121,15 @@ export default class Contact extends Component {
                       <h5 className="sub_title">Contact</h5>
                       <h4 className="main_title">Get In Touch</h4>
                       <p>
-                        Lorem ipsum dolor sitrg amet, consetetur sadipscing
-                        elitr sed diam nonumy eirmod tempor invidunt ut labore
-                        et dolore magna.
+                        COSMETICA is a one stop Hair solution center. we provide
+                        Hair replacement, Hair Fall control therapy, PRP for
+                        hair growth.
                       </p>
                     </div>
                     <div className="contact_form">
                       <form
                         // id="contact-form"
-                        action="https://send.pageclip.co/pfVU4PtD3mvclg4qkY25UnBrUFl2YFOh"
+                        action="https://send.pageclip.co/VuqhsFLA9r29bv10Esw1H6zUjI1DXhNn"
                         className="pageclip-form"
                         method="post"
                       >

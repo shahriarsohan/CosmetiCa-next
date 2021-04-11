@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import { Button } from "semantic-ui-react";
 import ReactPlayer from "react-player";
+import Link from "next/link";
 
 const Video = () => {
   const [one, setOne] = useState(false);
@@ -36,8 +38,8 @@ const Video = () => {
   };
 
   return (
-    <>
-      <div className="container  pt-115">
+    <div className="container">
+      <div className="container pt-115">
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="section_title text-center pb-25">
@@ -47,8 +49,12 @@ const Video = () => {
             {/* section title */}
           </div>
         </div>{" "}
-        <div className="video-player">
-          <ReactPlayer url="https://youtu.be/j53zVq7PzgU" />
+        <div className="video-player player-desing">
+          <ReactPlayer
+            playIcon="play"
+            style={{ borderRadius: "50px" }}
+            url="https://youtu.be/j53zVq7PzgU"
+          />
         </div>
       </div>
       <div className="LargeGallery">
@@ -56,30 +62,37 @@ const Video = () => {
           <div
             onClick={() => onClickOne()}
             className={one ? "panel panel-1 active" : "panel panel-1"}
-          >
-            <h3>Explore the word</h3>
-          </div>
+          ></div>
           <div
             onClick={() => onClickTwo()}
             className={two ? "panel panel-2 active" : "panel panel-2"}
-          >
-            <h3>Beautiful blue sky</h3>
-          </div>
+          ></div>
           <div
             onClick={() => onClickThree()}
             className={three ? "panel panel-3 active" : "panel panel-3"}
-          >
-            <h3>Beautiful blue sky</h3>
-          </div>
+          ></div>
           <div
             onClick={() => onClickFour()}
             className={four ? "panel panel-4 active" : "panel panel-4"}
-          >
-            <h3>Beautiful blue sky</h3>
-          </div>
+          ></div>
         </div>
       </div>
-    </>
+      <div className="d-flex justify-content-center">
+        <Link href="/gallery">
+          <Button
+            color="red"
+            content="More"
+            icon="heart"
+            label={{
+              basic: true,
+              color: "red",
+              pointing: "left",
+              content: "45",
+            }}
+          />
+        </Link>
+      </div>
+    </div>
   );
 };
 

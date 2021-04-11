@@ -23,7 +23,7 @@ export default class Home extends Component {
         <ImageList />
         <Service />
         <WhySection />
-        <OurService />
+        {/* <OurService /> */}
         {/* <OurWorks /> */}
         <Pricing />
         <Review />

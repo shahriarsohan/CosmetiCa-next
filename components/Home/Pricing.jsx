@@ -22,21 +22,7 @@ export default class Pricing extends Component {
                   className="nav justify-content-center"
                   id="myTab"
                   role="tablist"
-                >
-                  <li className="nav-item">
-                    <a
-                      className="active"
-                      id="monthly-tab"
-                      data-toggle="tab"
-                      href="#monthly"
-                      role="tab"
-                      aria-controls="monthly"
-                      aria-selected="true"
-                    >
-                      Monthly
-                    </a>
-                  </li>
-                </ul>
+                ></ul>
               </div>{" "}
               {/* pricing menu */}
               <div className="pricing_content_area">

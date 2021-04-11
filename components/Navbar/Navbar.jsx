@@ -10,12 +10,12 @@ export default class Navbarr extends Component {
           <div className="row">
             <div className="col-lg-12">
               <nav className="navbar navbar-expand-lg">
-                <a className="navbar-brand" href="index.html">
+                <Link href="/" className="navbar-brand">
                   <img
                     src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/cosmetica-assets/cosmetica-logo.png"
                     alt="Logo"
                   />
-                </a>
+                </Link>
                 <button
                   className="navbar-toggler"
                   type="button"
@@ -49,12 +49,6 @@ export default class Navbarr extends Component {
                       <Link className="page-scroll" href="/service">
                         Service
                       </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <a className="page-scroll" href="#blog">
-                        Blog
-                      </a>
                     </li>
 
                     <li className="nav-item">
