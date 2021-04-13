@@ -400,3 +400,9 @@ ul.redesSociais {
     margin-bottom: 50px;
   }
 }
+
+#home {
+  clip-path: polygon(0 0, 100% 1%, 100% 82%, 0% 100%);
+
+  background-color: aliceblue;
+}
