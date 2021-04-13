@@ -77,14 +77,9 @@ class Service extends Component {
                   </div>
                   <div className="services_content">
                     <h3 className="services_title">
-                      <a href="#">Hair System</a>
+                      <a href="#">{translate("hair_sys")}</a>
                     </h3>
-                    <p>
-                      Restore your hair with a non-surgical solution that fits
-                      your lifestyle. Our exclusive non-surgical hair loss
-                      solutions enable you to enjoy natural looking results and
-                      keep your normal routine.
-                    </p>
+                    <p>{translate("hair_sys_des")}</p>
                   </div>
                 </div>{" "}
                 {/* single services */}
@@ -105,14 +100,9 @@ class Service extends Component {
                   </div>
                   <div className="services_content">
                     <h3 className="services_title">
-                      <a href="#">Mesotherapy</a>
+                      <a href="#">{translate("meso")}</a>
                     </h3>
-                    <p>
-                      Mesotherapy is a non-invasive and non-surgical cosmetic
-                      hair restoration procedure for male & woman which has been
-                      steadily gaining in popularity. Woman which has been
-                      steadily gaining
-                    </p>
+                    <p>{translate("meso_des")}</p>
                   </div>
                 </div>{" "}
                 {/* single services */}
