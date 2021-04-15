@@ -7,6 +7,8 @@ import Router from "next/router";
 
 import { Provider } from "react-redux";
 
+import { useEffect } from "react";
+
 import store from "../store/index";
 
 import TawkTo from "../components/Tawk";
@@ -23,6 +25,19 @@ Router.onRouteChangeComplete = () => NProgress.done();
 Router.onRouteChangeError = () => NProgress.done();
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    window.$crisp = [];
+    window.CRISP_WEBSITE_ID = "704b75de-2f13-467e-8c36-e47796d17539";
+
+    (function () {
+      var d = document;
+      var s = d.createElement("script");
+
+      s.src = "https://client.crisp.chat/l.js";
+      s.async = 1;
+      d.getElementsByTagName("head")[0].appendChild(s);
+    })();
+  }, []);
   return (
     <>
       <Provider store={store}>
@@ -127,7 +142,7 @@ function MyApp({ Component, pageProps }) {
           ></script>
         </Head>
 
-        <TawkTo />
+        {/* <TawkTo /> */}
 
         <Component {...pageProps} />
       </Provider>

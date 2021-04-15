@@ -47,5 +47,18 @@ export default {
       "The treatment is carried out by injecting cocktail of various minerals, amino acids, enzymes,and vitamins that repair hair tissues and promote growth of new tissues.This nutrient rich liquid is injected.",
 
     replacement: "Replacement",
+
+    testimonials: "Testimonials",
+    review_short_des: "People wrote about us",
+
+    review: "Reliable Hair Treatment. Best Wishes for cosmetica",
+
+    gallery: "Gallery",
+    work_our: "Some of our work",
+
+    contact: "Contact Us",
+
+    cta_desc:
+      "Feel free to Ask your quarries about Non-surgical Hair Replacement",
   },
 };
