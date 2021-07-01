@@ -27,7 +27,7 @@ class Navbarr extends Component {
                 <nav className="navbar navbar-expand-lg">
                   <Link href="/" className="navbar-brand">
                     <img
-                      src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/cosmetica-assets/cosmetica-logo.png"
+                      src="https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/images/cosmetica-logo.png"
                       alt="Logo"
                     />
                   </Link>

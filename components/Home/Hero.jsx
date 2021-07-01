@@ -23,7 +23,7 @@ class Hero extends Component {
                     className="wow fadeInRightBig"
                     data-wow-duration="2s"
                     data-wow-delay="1.6s"
-                    src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/hero-img-removebg-preview.png"
+                    src="https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/images/hero-img-removebg-preview.png"
                     alt="Header Image"
                   />
                 </div>

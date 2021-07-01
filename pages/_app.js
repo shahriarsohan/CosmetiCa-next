@@ -96,39 +96,39 @@ function MyApp({ Component, pageProps }) {
 
           <link
             rel="stylesheet"
-            href="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/css/animate.css"
+            href="https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/css/animate.css"
           />
 
           <link
             rel="stylesheet"
-            href="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/fonts/lineicons/fonts/LineIcons.css"
+            href="https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/css/LineIcons.css"
           />
 
           <link
             rel="stylesheet"
-            href="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/css/bootstrap.min.css"
+            href="https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/css/bootstrap.min.css"
           />
 
           <link
             rel="stylesheet"
-            href="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/css/default.css"
+            href="https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/css/default.css"
           />
 
           <link
             rel="stylesheet"
-            href="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/assets/css/style.css"
+            href="https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/css/style.css"
           />
 
-          <script src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/js/vendor/jquery-1.12.4.min.js"></script>
-          <script src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/js/vendor/modernizr-3.7.1.min.js"></script>
+          <script src="https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/js/vendor/jquery-1.12.4.min.js"></script>
+          <script src="https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/js/vendor/modernizr-3.7.1.min.js"></script>
 
-          <script src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/js/popper.min.js"></script>
-          <script src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/js/bootstrap.min.js"></script>
+          <script src="https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/js/popper.min.js"></script>
+          <script src="https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/js/bootstrap.min.js"></script>
 
-          <script src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/js/jquery.easing.min.js"></script>
-          <script src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/js/scrolling-nav.js"></script>
+          <script src="https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/js/jquery.easing.min.js"></script>
+          <script src="https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/js/scrolling-nav.js"></script>
 
-          <script src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/wow.min.js"></script>
+          <script src="https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/js/wow.min.js"></script>
           <script src="https://romex.s3.ap-south-1.amazonaws.com/cosmetica/expand.js"></script>
           <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"

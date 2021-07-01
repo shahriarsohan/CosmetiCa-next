@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 
 var images = [
-  "https://romex.s3.ap-south-1.amazonaws.com/cosmetica/hero-img-removebg-preview.png",
-  "https://romex.s3.ap-south-1.amazonaws.com/cosmetica/hero-img-removebg-preview.png",
-  "https://romex.s3.ap-south-1.amazonaws.com/cosmetica/hero-img-removebg-preview.png",
-  "https://romex.s3.ap-south-1.amazonaws.com/cosmetica/hero-img-removebg-preview.png",
+  "https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/images/hero-img-removebg-preview.png",
+  "https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/images/hero-img-removebg-preview.png",
+  "https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/images/hero-img-removebg-preview.png",
+  "https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/images/hero-img-removebg-preview.png",
 
-  "https://romex.s3.ap-south-1.amazonaws.com/cosmetica/hero-img-removebg-preview.png",
-  "https://romex.s3.ap-south-1.amazonaws.com/cosmetica/hero-img-removebg-preview.png",
-  "https://romex.s3.ap-south-1.amazonaws.com/cosmetica/hero-img-removebg-preview.png",
-  "https://romex.s3.ap-south-1.amazonaws.com/cosmetica/hero-img-removebg-preview.png",
+  "https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/images/hero-img-removebg-preview.png",
+  "https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/images/hero-img-removebg-preview.png",
+  "https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/images/hero-img-removebg-preview.png",
+  "https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/images/hero-img-removebg-preview.png",
 
-  "https://romex.s3.ap-south-1.amazonaws.com/cosmetica/hero-img-removebg-preview.png",
-  "https://romex.s3.ap-south-1.amazonaws.com/cosmetica/hero-img-removebg-preview.png",
-  "https://romex.s3.ap-south-1.amazonaws.com/cosmetica/hero-img-removebg-preview.png",
-  "https://romex.s3.ap-south-1.amazonaws.com/cosmetica/hero-img-removebg-preview.png",
+  "https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/images/hero-img-removebg-preview.png",
+  "https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/images/hero-img-removebg-preview.png",
+  "https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/images/hero-img-removebg-preview.png",
+  "https://cosmetica-bd.s3.ap-south-1.amazonaws.com/assets1/images/hero-img-removebg-preview.png",
 ];
 
 class ImageList extends Component {
